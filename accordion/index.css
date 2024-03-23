@@ -1,0 +1,46 @@
+body {
+    background-color: #0A2344;
+    font-family: 'rubik', sans-serif;
+  }
+  
+
+   
+  h1 {
+    text-align: center;
+  }
+  
+
+  
+  .container{
+    padding: auto;
+    margin-bottom: 5rem;
+    padding-bottom: 2rem;
+    width: 800px;
+    margin: 9px auto;
+    color: black;
+    background-color: white;
+    padding: 45px 45px;
+    cursor: pointer;
+    height: 7rem;
+  }
+.content {
+    padding-top: 2rem;
+    position: relative;
+    background: white;
+    max-height: 0;
+    font-size: 20px;
+    text-align: justify;
+    width: 780px;
+    overflow: hidden;
+    transition: 0.5s;
+  }
+.content.active{
+    position: relative;
+    background: white;
+    height: 100;
+    font-size: 20px;
+    text-align: justify;
+    width: 780px;
+    overflow: visible;
+    transition: 0.5s;
+  }

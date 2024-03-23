@@ -1,0 +1,41 @@
+body{
+    background-color: pink;
+}
+div.container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 15rem;
+
+    margin: auto;
+    border-radius:  1rem;
+    
+    
+    
+    height: 300px;
+    width: 300px;
+    background-color: white;
+
+}
+div.inside{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.color{
+    margin-bottom: 2rem;
+    height: 2rem;
+    border-radius: 1.2rem;
+    background-color: pink;
+    cursor: pointer;
+}
+.COPY{
+    
+    height: 2rem;
+    border-radius: 1.2rem;
+    background-color: yellow;
+    cursor: pointer;
+}
+h1{
+    font-size: small;
+}
