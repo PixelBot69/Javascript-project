@@ -1,0 +1,29 @@
+.container{
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5rem;
+    
+    border-radius: 1.5rem;
+
+}
+.color{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+    cursor: pointer;
+
+    border-radius: 1.2rem;
+    height: 3rem;
+    margin-top: 2rem;
+    font-size: medium
+   
+  
+   
+   
+}
